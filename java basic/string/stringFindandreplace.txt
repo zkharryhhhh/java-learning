@@ -1,0 +1,8 @@
+ char charAt(int index) 返回指定索引处的char值
+ int indexOf(String str)返回指定字符在此字符串中第一次出现处的位置
+ int lastIndexOf(String str) 搜索指定字符在此字符串中最后一次出现时的位置
+
+
+ String replace(char oldchar,char newchar)  通过新字符替换掉字符串中出现的所有旧字符，注意参数为字符
+ replaceFirst(String regex,String replacement) 替换字符串中匹配的第一个子字符串
+ replaceAll(String regex ,String repalcement) 替换字符串中所有匹配的子字符串
