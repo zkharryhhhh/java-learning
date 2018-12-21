@@ -1,0 +1,6 @@
+toCharArray()方法可以将字符串string转换为字符数组 char[] c
+valueof()方法，作用是返回参数数据类型的字符串表示形式
+
+
+format()方法和print()方法类似，
+例如 String str1=String.format("32的八进制是：%o",32);
