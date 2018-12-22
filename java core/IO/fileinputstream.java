@@ -12,6 +12,7 @@ public class FileInputTest {
         fis=new FileInputStream(f);//打开指定的文件
         int end=0;
         byte[] by=new byte[(int)f.length()];
+        //UTF-8中，汉字占三个字节
         System.out.println("按字节读取");
 
         try{
